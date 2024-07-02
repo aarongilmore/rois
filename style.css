@@ -66,7 +66,7 @@ p.indent:before {
 
 @media (max-width: 767px) {
     .container {
-        max-width: 80vw;
+        max-width: 95vw;
         margin: auto;
         height: 100vh;
         display: flex;
@@ -84,12 +84,16 @@ p.indent:before {
         line-height: 1.4rem;
     }
 
+    p.indent {
+        text-indent:4rem;
+    }
+
     video {
         transform: translate(-50%, -50%);
         position: absolute;
         top: 50%;
         left: 50%;
         z-index: -100;
-        width: 20rem;
+        width: 15rem;
     }
 }
